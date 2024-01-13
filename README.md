@@ -10,8 +10,9 @@ Acionamento de 04 Relés com Esp32 e Rádio Lora Ebyte
 - Apesar das bobinas dos relés consumir baixa corrente ainda assim foi colocado o ULN 2003 como driver.
 # Do skecth (Programa embarcado):
 - As duas placas operam com o mesmo programa.
-- Qualquer botão apertado aciona o relé correspondente e o relé remodo via RF.
+- Qualquer botão ( 1 a 4 ) clicado aciona o relé correspondente ( 1 a 4 ) e o relé remoto ( 1 a 4 ) via RF.
 - Se o Botão 1 for apertado por mais de 5 segundos a placa envia testes sequencialmente a cada 2 segundos alternando os relés acionados.
 - Qualquer click com menos de 5 segundos em qualquer dos 04 botões desarma o teste e volta na operação normal.
-- O código está bem comentado e fácil de acompanhar
+- O código está bem comentado e fácil de acompanhar.
+  
 

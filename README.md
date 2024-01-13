@@ -14,7 +14,7 @@ Acionamento de 04 Relés com Esp32 e Rádio Lora Ebyte
 - Se o Botão 1 for apertado por mais de 10 segundos a placa envia testes sequencialmente a cada 2 segundos alternando os relés acionados.
 - Qualquer click com menos de 5 segundos em qualquer dos 04 botões desarma o teste e volta na operação normal.
 - Qualquer das placas pode transmitir ou receber (quando clica o botão a placa local transmite e a remota recebe e vice-versa).
-- Foi usado a porta Serial 2 para usar a Serial 0 para debug no Monitor Serial.
+- Foi usado a porta Serial 2 na comunicação com o Lora assim da para usar a Serial 0 para Debug no Monitor Serial da IDE.
 - O código está bem comentado e fácil de acompanhar.
   
 

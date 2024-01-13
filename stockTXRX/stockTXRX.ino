@@ -50,7 +50,7 @@ int bt3 = 36;
 int bt4 = 39;
 
 long tempoRele =    0; // Para usar funcao de rele Pulsado
-long tempoTeste =    0; // Para usar funcao de rele Pulsado
+long tempoTeste =    0; // Para usar funcao de auto teste
 
 bool teste = false; // Inicia sem a funcao teste habilitada
 int  testeCount = 1; // Teste feitos de 1 a 4 ( 04 Reles)

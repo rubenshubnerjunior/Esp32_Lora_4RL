@@ -7,3 +7,11 @@ Acionamento de 04 Relés com Esp32 e Rádio Lora Ebyte
 - Foi usado um conversor de 12 V para 5V pois o Radio Ebyte tem melhor performance nesta tensão.
 - Colocado um diodo na entrada da fonte para evitar danos caso haja inversão de polaridade.
 - Os pinos M0, M1 e Aux foram conectados ao Esp32 porém este Sketch não está fazendo uso dos mesmos.
+- Apesar das bobinas dos relés consumir baixa corrente ainda assim foi colocado o ULN 2003 como driver.
+# Do skecth (Programa embarcado):
+- As duas placas operam com o mesmo programa.
+- Qualquer botão apertado aciona o relé correspondente e o relé remodo via RF.
+- Se o Botão 1 for apertado por mais de 5 segundos a placa envia testes sequencialmente a cada 2 segundos alternando os relés acionados.
+- Qualquer click com menos de 5 segundos em qualquer dos 04 botões desarma o teste e volta na operação normal.
+- O código está bem comentado e fácil de acompanhar
+

@@ -1,3 +1,5 @@
 # Esp32_Lora_4RL
 Acionamento de 04 Relés com Esp32 e Rádio Lora Ebyte
-### Obs: Não esquecer de conectar a antena nas duas placas
+### Obs: Não esquecer de conectar as antenas nas duas placas
+# Hardware:
+- O radio deve estar na mesma frequeência, endereço e canal

@@ -2,7 +2,7 @@
 Acionamento de 04 Relés com Esp32 e Rádio Lora Ebyte
 ### Obs: Não esquecer de conectar as antenas nas duas placas
 # Hardware:
-- O radio deve estar na mesma frequeência, endereço e canal.
+- O radio deve estar na mesma frequência, endereço e canal.
 - Normalmente já vem nesta configuração mas pode ser ajustado pelo programa RF_Setting.
 - Foi usado um conversor de 12 V para 5V pois o Radio Ebyte tem melhor performance nesta tensão.
 - Colocado um diodo na entrada da fonte para evitar danos caso haja inversão de polaridade.
